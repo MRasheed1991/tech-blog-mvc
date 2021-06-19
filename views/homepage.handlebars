@@ -1,0 +1,15 @@
+  
+{{#if isLoggedIn}}
+  {{> privateNavbar}}
+{{else}}
+  {{> publicNavbar}}
+{{/if}}
+<div class="container">
+  <h1 class="text-center p-4">Blogs from all users</h1>
+  <hr />
+  <div class="d-flex flex-wrap justify-content-between">
+    {{#each posts }}
+      {{> techBlogCard}}
+    {{/each}}
+  </div>
+</div>
