@@ -1,5 +1,7 @@
 const sequelize = require("sequelize");
 
+require("dotenv").config();
+
 const dbOptions = {
   host: process.env.DB_HOST,
   dialect: "mysql",

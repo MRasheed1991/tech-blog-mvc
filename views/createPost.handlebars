@@ -1,4 +1,12 @@
 {{> privateNavbar}}
-<div class="container">
-  Render new blog form here
+<div class="position-absolute top-50 start-50 translate-middle w-50 border p-3">
+  <h2 class="text-center">Create Blog</h2>
+  <form id="createblog">
+    <div class="mb-3">
+      <input type="text" class="form-control" id="title" placeholder="title"/>
+    <div class="mb-3">
+      <textarea type="text" class="form-control" id="body" placeholder="body"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">create</button>
+  </form>
 </div>
