@@ -18,8 +18,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "seed": "node src/db/seed/index.js"
   },
   "repository": {
